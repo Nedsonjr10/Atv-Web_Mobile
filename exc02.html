@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Centralizando DIVs</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f0f0f0;
+        }
+        
+        .container {
+            width: 700px;
+            text-align: center;
+        }
+        
+        .red-box {
+            background-color: red;
+            width: 700px;
+            padding: 0;
+        }
+        
+        .green-box {
+            background-color: green;
+            width: 700px;
+            padding: 25px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="red-box">
+            <p>Red Box</p>
+        </div>
+        <div class="green-box">
+            <p>Green Box</p>
+        </div>
+    </div>
+</body>
+</html>
